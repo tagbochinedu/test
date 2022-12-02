@@ -1,0 +1,256 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+body {
+    text-align: center;
+    background-image: url('./resources/photo-1551509134-2f9d4ec80a9b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 0 40px;
+    background-attachment: fixed;
+}
+/*Home*/
+.intro {
+    height: 80vh;
+    font-family: 'Quicksand';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro h2 {
+    font-size: 64px;
+}
+h2 span {
+    color: #C30F16;
+}
+
+.likes {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+.likes div p{
+    max-width: 1000px;
+    font-size: 32px;    
+}
+
+
+/*header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header div {
+     width: 20%;
+     text-align: left;
+}
+header h2 {
+    font-family: 'Dancing Script';
+    font-size: 60px;
+}
+nav {
+    width: 60%
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    
+}
+li {
+    width: max-content;
+    margin: 40px;
+}
+a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Quicksand';
+}
+
+
+
+/*WishList Page*/
+.heading {
+    color: white;
+    font-family: 'Quicksand';
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    
+}
+.extra {
+height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+svg {
+    width: 30px;
+}
+
+
+.list {
+    font-family: 'Quicksand';
+    padding-top: 100px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'Quicksand';
+}
+
+.card {
+    width: 440px;
+    margin: 25px auto;
+    border-radius: 5px;
+    outline: 0.01px solid inherit;
+    box-shadow: 0px 5px 8px black;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-blank {
+    opacity: 0;
+}
+
+.card-img {
+    background-color: transparent;
+    outline: 0.01px solid inherit;
+    border-top-radius: 5px;
+    object-fit: contain;
+    backdrop-filter: blur(4px);
+}
+
+
+.card img {
+    object-fit: contain;
+    height: 400px;
+    width: 400px;
+}
+
+.card-text {
+    background-color: #C30F16;
+    margin-top: 0px;
+    color: white;
+    padding: 20px 10px;
+}
+
+.card-text h3 {
+    margin: auto auto 20px auto
+}
+
+.card-text p {
+    margin: auto;
+    font-size: 20px
+}
+
+/*Contact Us*/
+form {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 20px;
+    text-align: start;
+}
+
+.input-container {
+    margin: 15px 0px;
+}
+
+.contact-name {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-names{
+    width: 46%;
+}
+label {
+    font-size: 30px;
+    font-family: 'Quicksand';
+    text-align: start;
+}
+ input{
+    background-color: rgb(17, 22, 39);
+    outline: none;
+    width: 100%;
+    height: 100px;
+    border: none;
+    margin: 10px 0px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Quicksand';
+    padding: 0px 10px;
+    border-radius: 10px;
+ }
+
+ textarea {
+     background-color: rgb(17, 22, 39);
+     outline: none;
+     width: 100%;
+     border: none;
+     margin: 10px auto;
+     font-size: 30px;
+     color: white;
+     font-family: 'Quicksand';
+     border-radius: 10px;
+    padding: 0px 10px;
+ }
+
+ .btn-container {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ input[type=reset], input[type=submit] {
+    background-color: #C30F16;
+    width: 100px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 25px;
+ }
+  input[type=reset]:hover, input[type=submit]:hover {
+    background-color: #e63b40;
+  }
+  .reset:active,
+  .submit:active {
+      background-color: #e63b40;
+  }
+
+  /*After Graduation*/
+  .graduation {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand';
+  }
+  .graduation img {
+    width: 200px;
+    display: 'block';
+  }
